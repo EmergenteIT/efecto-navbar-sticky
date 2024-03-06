@@ -1,6 +1,7 @@
 *, *:before, *:after{
     box-sizing: border-box;
 }
+
 body{
     background-color: black;
     color: white;
@@ -11,12 +12,14 @@ body{
 
 .main{
     position: relative;
+    width: 100%;
 }
 
 .hero-container{
     display: flex;
     justify-content: center;
-    width: calc(100vh - 50px);
+    width: 100%;
+    height: calc(100vh - 50px);
     padding: 20px;
 }
 
